@@ -1,0 +1,115 @@
+/* https://coolors.co/ffbc42-d81159-8f2d56-218380-73d2de */
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: white;
+}
+
+header{
+    padding-top: 2%;
+    color: #218380;
+    margin-bottom: 3%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+button, input {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+input {
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: 1px solid #73D2DE;
+}
+
+ul {
+    list-style: none;
+}
+
+input::placeholder{
+    color: #FFBC42;
+}
+
+.btn-primary{
+    background: #D81159;
+    border: none;
+}
+
+.btn-primary:hover{
+    background: #8F2D56;
+    border: none;
+}
+
+section:first-child{
+    margin-bottom: 2%;
+}
+
+.contenedorclima {
+    background-color: rgba(0, 0, 0, 0.02);
+    color: #218380;
+    visibility : hidden;
+    border-radius: 10px;
+}
+
+.contenedorclima p{
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.ciudades {
+    padding: 5%; 
+}
+
+#pais{
+    font-size: 1rem;
+    color: #73D2DE;
+}
+
+#ciudad {
+    font-size: 2rem;
+    color: #218380;
+}
+
+#temperatura {
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #FFBC42;
+}
+
+sup {
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: #FFBC42;;
+}
+
+img {
+    width: 4rem;
+}
+
+#descripcion {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #73D2DE
+}
+
+footer{
+    background-color: #218380;
+    color: white;
+    font-size: small;
+    letter-spacing: 0.2em;
+    width: 100%;
+    text-align: center;
+    padding: 1% 0;
+}
+
+footer p{
+    margin-bottom: 0;
+}
